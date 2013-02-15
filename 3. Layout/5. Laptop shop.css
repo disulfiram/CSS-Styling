@@ -1,0 +1,108 @@
+body, section, header, h1, h2, nav, li, ul, a, img, div, form, span, aside, input, fieldset
+{
+    amargin:0px;
+    padding:0px;
+    font-family: sans-serif,calibri;
+}
+body
+{
+    width: 860px;
+    background-color:#2C4762;
+}
+.shop
+{
+    width:860px;
+}
+body section.shop
+{
+    
+    background-color:white;
+}
+section>div
+{
+    
+}
+body nav ul
+{
+    
+    text-align:center;
+}
+li
+{
+    list-style:none;
+}
+body nav ul li
+{
+    
+    display:inline-block;
+    font-weight:Bold;
+    font-size:1.5em;
+}
+a
+{
+    color:#00ABEF;
+}
+header
+{
+    
+    padding: 8px;
+    border-bottom:solid;
+    border-width:1px;
+    border-color:#666666;
+}
+img
+{
+    width:150px;
+    display:
+}
+.Table
+{
+    border-width:1px;
+    border-style:solid;
+    border-color:#666666;
+    position: relative;
+    overflow:hidden;
+    padding: 10px 224px 0 0;
+}
+.Table>div
+{
+    border-width:1px;
+    border-style:solid;
+    border-color:#666666;
+    float: left;
+    margin: 0 0 10px 10px;
+    padding: 10px 20px;
+    width: 230px;
+    height:180px;
+}
+div h2
+{
+    float: left;
+    margin-top: -0.87em;
+    padding-top:0px;
+    margin-left:0px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:White;
+}
+div ul
+{
+    float:right;
+}
+div ul li
+{
+    margin-top:22px;
+}
+section>aside
+{
+    float:right;
+    position:relative;
+    top:-415px;
+    right:45px;
+    width: 202px;
+    text-align:center;
+}
+aside span
+{
+    display:block;
+}

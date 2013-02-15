@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="4. Calculator.css">
+</head>
+<body>
+    <div class="body">
+        <div class="menu">
+            <span>
+                View
+            </span>
+            <span>
+                Edit
+            </span>
+            <span>
+                Help
+            </span>
+        </div>
+        <div class="input">
+            <div>
+                <form>
+                    <input type=text value="80085">         
+                </form>
+            </div>
+            <div>
+                <table class="dectobin">
+                    <tr>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                    </tr>
+                    <tr>
+                        <td class="subtitle" colspan="4">63</td>
+                        <td class="subtitle" colspan="3">47</td>
+                        <td class="subtitle" class="last">32</td>
+                    </tr>
+                    <tr>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0001</td>
+                        <td>0011</td>
+                        <td>1000</td>
+                        <td>1101</td>
+                        <td>0101</td>
+                    </tr>
+                    <tr>
+                        <td class="subtitle" colspan="4">31</td>
+                        <td class="subtitle" colspan="3">15</td>
+                        <td class="subtitle" class="last">0</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <form>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td rowspan="3">
+                                    <div class="radio">
+                                        <div>
+                                            <input type="radio" name="NumSys" id="Hex"><label for="Hex">Hex</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="NumSys" id="Dec" checked="checked"><label for="Dec">Dec</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="NumSys" id="Oct"><label for="Oct">Oct</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="NumSys" id="Bin"><label for="Bin">Hex</label>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="button" disabled=true class="disabled">
+                                </td>
+                                <td>
+                                    <input type="button" value="Mod" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="A"  disabled=true class="disabled" class="big"> 
+                                </td>
+                                <td>
+                                    <input type="button" value="MC"  class="halfdisabled">
+                                </td>
+                                <td>
+                                    <input type="button" value="MR"  class="halfdisabled">
+                                </td>
+                                <td>
+                                    <input type="button" value="MS"  class="halfdisabled">
+                                </td>
+                                <td>
+                                    <input type="button" value="M+"  class="halfdisabled">
+                                </td>
+                                <td>
+                                    <input type="button" value="M-"  class="halfdisabled">
+                                </td>
+                                
+                                
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="button" value="(" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value=")" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="B"  disabled=true class="disabled" class="big">
+                                </td>
+                                <td>
+                                    <input type="button" value="←" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="CE" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="C" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="±" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="√" disabled=true class="disabled">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="button" value="RoL" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="RoR" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="C"  disabled=true class="disabled" class="big">
+                                </td>
+                                <td>
+                                    <input type="button" value="7" class="number">
+                                </td>
+                                <td>
+                                    <input type="button" value="8" class="number">
+                                </td>
+                                <td>
+                                    <input type="button" value="9" class="number">
+                                </td>
+                                <td>
+                                    <input type="button" value="/" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="%" disabled=true class="disabled">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="3">
+                                    <div class="radio">
+                                        <div>
+                                            <input type="radio" name="idk" id="Qword" checked="checked"><label for="Qword">Qword</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="idk" id="Dword"><label for="Dword">Dword</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="idk" id="Word"><label for="Word">Word</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="idk" id="Byte"><label for="Byte">Byte</label>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="button" value="Or" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="Xor" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="D"  disabled=true class="disabled" class="big">
+                                </td>
+                                <td>
+                                    <input type="button" value="4" class="number">
+                                </td>
+                                <td>
+                                    <input type="button" value="5" class="number">
+                                </td>
+                                <td>
+                                    <input type="button" value="6" class="number">
+                                </td>
+                                <td>
+                                    <input type="button" value="*" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="1/x" disabled=true class="disabled">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="button" value="Lsh" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="Rsh" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="E"  disabled=true class="disabled" class="big"> 
+                                </td>
+                                <td>
+                                    <input type="button" value="1" class="number">
+                                </td>
+                                <td>
+                                    <input type="button" value="2" class="number">
+                                </td>
+                                <td>
+                                    <input type="button" value="3" class="number">
+                                </td>
+                                <td>
+                                    <input type="button" value="-" class="normal">
+                                </td>
+                                <td rowspan="2">
+                                    <input type="button" value="=" class="normal">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="button" value="Not" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="And" class="normal">
+                                </td>
+                                <td>
+                                    <input type="button" value="F"  disabled=true class="disabled" class="big">
+                                </td>
+                                <td colspan="2">
+                                    <input type="button" value="0" class="number">
+                                </td>
+                                <td>
+                                    <input type="button" value="." disabled=true class="disabled">
+                                </td>
+                                <td>
+                                    <input type="button" value="+" class="normal">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+body, a, form, legend, div, fieldset {
+    font-size:16px;
+    font-family:Verdana, Geneva;
+    margin:0px;
+    padding:0px;
+}
+.invisible {
+    display:none;
+}
+div#wrapper {
+    padding-left:50px;
+}
+div#wrapper a {
+    text-decoration:none;
+    color:black;
+    font-size:19px;
+}
+div#wrapper a.current {
+    font-weight:bold;
+}
+div form {
+    background: #fefefe;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #fefefe 20%, #595959 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(100%, #595959));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fefefe 20%, #595959 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fefefe 0%, #595959 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fefefe 0%, #595959 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #fefefe 0%, #595959 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#595959', GradientType=0);
+    /* IE6-9 */
+    width:445px;
+}
+div form fieldset {
+    border-width:5px;
+    border-color:black;
+    width:365px;
+    border-radius:5px;
+    padding-right:75px;
+}
+div form fieldset legend {
+    font-weight:bold;
+    font-size:27px;
+    font-style:italic;
+    text-align:right;
+    right:80px;
+    padding:0 10px;
+    margin-bottom:13px;
+}
+div form fieldset {
+    text-align:right;
+}
+div form label {
+    font-weight:bold;
+}
+div form input {
+    width:165px;
+    height:34px;
+    border-style:none;
+    border-radius:15px;
+    margin-bottom:7px;
+    padding-left:15px;
+    background: #020202;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #020202 0%, #cacaca 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #020202), color-stop(100%, #cacaca));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #020202 0%, #cacaca 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #020202 0%, #cacaca 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #020202 0%, #cacaca 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #020202 0%, #cacaca 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#020202', endColorstr='#cacaca', GradientType=0);
+    /* IE6-9 */
+}
+button {
+    margin-top:3px;
+    padding:5px;
+    padding-left:10px;
+    padding-right:10px;
+    color:black;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    border-radius:15px;
+    font-size:19px;
+    margin-bottom:10px;
+    background: #030303;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #030303 0%, #fcfcfc 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #030303), color-stop(100%, #fcfcfc));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #030303 0%, #fcfcfc 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #030303 0%, #fcfcfc 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #030303 0%, #fcfcfc 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #030303 0%, #fcfcfc 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#030303', endColorstr='#fcfcfc', GradientType=0);
+    /* IE6-9 */
+}

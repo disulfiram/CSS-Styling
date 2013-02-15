@@ -1,0 +1,66 @@
+body
+{
+    background-color:#595959;
+    font-family:Calibri;
+}
+table
+{
+    padding:5px;
+    border-collapse:collapse;
+}
+th
+{
+    background-color:#53B606;
+    color:#FFFFFF;
+    font-weight:normal;
+    border-style:outset;
+    border-width:1px;
+    border-color:#53B606;
+    text-align:left;
+    padding:3px
+}
+td
+{
+    border-right-style:solid;
+    border-right-color:#C2C0A5;
+    border-right-width:1px;
+    padding:3px
+}
+ul
+{
+    list-style-type:none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.uk
+{
+    background-image:url('resources/gb.png');
+    background-repeat:no-repeat;
+    background-position:0px 5px; 
+    padding-left:25px;
+}
+.de
+{
+    background-image:url('resources/de.png');
+    background-repeat:no-repeat;
+    background-position:0px 5px; 
+    padding-left:25px;
+}
+.mex
+{
+    background-image:url('resources/mx.png');
+    background-repeat:no-repeat;
+    background-position:0px 5px; 
+    padding-left:25px;
+}
+tr:nth-child(2n-1)
+{
+    background-color:#ECECD8;
+}
+tr:nth-child(2n)
+{
+    background-color:#FFFFFF;
+}
+input[type="checkbox"]
+{
+}

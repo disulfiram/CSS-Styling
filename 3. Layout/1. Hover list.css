@@ -1,0 +1,49 @@
+@font-face
+{
+    font-family:Coalition;
+    src:url(Resources/Coalition.ttf);
+}
+body
+{
+    background-color:#01256F;
+}
+a
+{
+    color:#FBC900;
+    text-decoration:none;
+    font-family:Coalition;
+}
+ul
+{
+    list-style:none;
+}
+ul.Main
+{
+    font-size:2em;
+    min-height:;
+    display:inline-block;
+}
+ul.FirstSub
+{
+    font-size:0.8em;
+    display:none;
+    position:static;
+    float:;
+}
+ul.SecondSub
+{
+    font-size:0.8em;
+    display:none;
+    position:relative;
+}
+ul li:hover > a
+{
+    text-decoration:underline;
+}
+ul li:hover > a + ul
+{
+    clear:;
+    float:;
+    display: block;
+    clear:both;
+}

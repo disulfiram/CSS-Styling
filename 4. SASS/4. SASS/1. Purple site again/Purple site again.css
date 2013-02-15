@@ -1,0 +1,135 @@
+body, header, div, h1, a, img, label, form, input, nav, li, ul, header, section, article, p, footer, time, aside, h2 {
+  margin: 0;
+  padding: 0px; }
+
+body {
+  width: 1440px;
+  max-height: 784px;
+  background-color: #9215f2; }
+  body > header {
+    background: -moz-linear-gradient(top, #d593ff 0%, #9215f2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d593ff), color-stop(100%, #9215f2));
+    background: -webkit-linear-gradient(top, #d593ff 0%, #9215f2 100%);
+    background: -o-linear-gradient(top, #d593ff 0%, #9215f2 100%);
+    background: -ms-linear-gradient(top, #d593ff 0%, #9215f2 100%);
+    background: linear-gradient(to bottom, #d593ff 0%, #9215f2 100%); }
+    body > header #header-container #logo-container {
+      display: inline-block;
+      padding: 22.5px 13px; }
+      body > header #header-container #logo-container img {
+        height: 70px; }
+    body > header #header-container #reg-form-container {
+      font-size: 0.8em;
+      padding: 25px 70px 0 0;
+      text-align: right;
+      color: white;
+      float: right; }
+      body > header #header-container #reg-form-container input {
+        width: 130px;
+        height: 18px;
+        margin-bottom: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        background-color: #b35ef3; }
+      body > header #header-container #reg-form-container #btn-register {
+        color: white;
+        position: relative;
+        right: 130px;
+        background-color: #b35ef3;
+        border-style: inset;
+        border-radius: 10px;
+        border-color: black;
+        border-top-color: white;
+        border-left-color: white;
+        border-width: 1px;
+        padding: 5px 10px; }
+    body > header nav {
+      zoom: 1; }
+      body > header nav ul {
+        font-size: 1.2em;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 14px;
+        list-style: none;
+        display: inline-block;
+        padding: 10px 20px;
+        margin-left: 30px;
+        margin-top: 5px;
+        width: 1045px; }
+        body > header nav ul li {
+          float: left; }
+          body > header nav ul li a {
+            color: white;
+            text-decoration: none;
+            margin-right: 13px; }
+          body > header nav ul li ul {
+            display: none; }
+          body > header nav ul li:hover ul {
+            display: block; }
+            body > header nav ul li:hover ul li {
+              float: left; }
+      body > header nav:after {
+        display: block;
+        content: "";
+        height: 0;
+        clear: both; }
+  body section {
+    displa: inline-block;
+    float: left; }
+    body section:first-of-type {
+      margin-top: 30px; }
+    body section article {
+      margin-left: 20px;
+      border-color: black;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 14px;
+      display: inline-block;
+      width: 1020px;
+      color: white;
+      padding: 20px 15px;
+      margin-bottom: 15px; }
+      body section article header {
+        text-indent: 5px;
+        font-size: 0.9em; }
+      body section article p {
+        font-size: 0.8em; }
+      body section article footer {
+        font-size: 1.2em;
+        text-align: right; }
+      body section article a {
+        color: gray; }
+  body aside {
+    top: 220px;
+    position: absolute;
+    left: 1100px;
+    width: 280px;
+    float: right;
+    padding: px;
+    margin: 5px;
+    color: white; }
+    body aside a {
+      color: gray; }
+    body aside ul {
+      list-style: none; }
+      body aside ul > li {
+        font-size: 14px;
+        padding: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        border-color: black;
+        margin-bottom: 10px; }
+        body aside ul > li ul {
+          list-style-image: url("images\li-dot.png");
+          padding-left: 25px; }
+          body aside ul > li ul li {
+            margin: 0px;
+            padding: 0px;
+            border-style: none; }
+  body > footer {
+    text-align: center;
+    color: white;
+    font-weight: bold; }
+

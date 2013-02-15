@@ -1,0 +1,44 @@
+html
+{
+    background-color: #595959;
+    font: calibri;
+}
+ul
+{
+    padding-left: 25px;
+    margin: 0px;
+    list-style-image:url('resources/online.png');
+}
+body
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    font-family: calibri;
+}
+dt
+{
+    font-style:italic;
+    font-style:bold;
+    color:#D6E7D8;
+}
+dd
+{
+    color:#F5F9A8;
+}
+a
+{
+    color:#F5F9A8;
+}
+.NA
+{
+    color:#E26A26;
+}
+.Fail
+{
+    color:#FB0814;
+}
+.Normal
+{
+    color:#9DA49E;
+}

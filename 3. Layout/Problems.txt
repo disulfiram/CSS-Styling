@@ -1,0 +1,5 @@
+1. Hover list
+Needs js to have delays when navigating the menu
+
+2. Music Categories
+Buttons need to go to the bottom of the div
